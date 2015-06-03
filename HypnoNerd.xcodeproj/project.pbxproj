@@ -442,6 +442,7 @@
 				EA2102D41B1E8BFB003C1E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA2102D51B1E8BFB003C1E48 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +451,7 @@
 				EA2102D71B1E8BFB003C1E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

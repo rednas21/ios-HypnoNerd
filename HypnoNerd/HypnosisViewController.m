@@ -27,6 +27,7 @@
     [self.scrollView addSubview:anotherHypnosisView];
     
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width*2, self.scrollView.frame.size.height);
+    self.scrollView.pagingEnabled = YES;
 }
 
 - (void)didReceiveMemoryWarning {

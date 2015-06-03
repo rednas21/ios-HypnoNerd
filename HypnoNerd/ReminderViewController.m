@@ -30,6 +30,12 @@
 {
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for %@", date);
+    
+    UILocalNotification *note = [[UILocalNotification alloc] init];
+    note.alertBody = @"Hypnotize me!";
+    note.fireDate = date;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
 }
 
 /*
