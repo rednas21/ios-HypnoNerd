@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  HypnosisViewController.h
 //  HypnoNerd
 //
 //  Created by Sander Peerna on 6/2/15.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface HypnosisViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
 @end
-

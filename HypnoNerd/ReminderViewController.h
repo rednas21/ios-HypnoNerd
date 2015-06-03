@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ReminderViewController.h
 //  HypnoNerd
 //
 //  Created by Sander Peerna on 6/2/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ReminderViewController : UIViewController
 
 @end
-
